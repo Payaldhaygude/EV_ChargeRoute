@@ -1,0 +1,166 @@
+# EV ChargeRoute nodes - built from dataset/raw/Indian_EV_Stations_Simplified.csv by tools/build_dataset.py
+# type=CITY|STATION; charger=1; price_per_kwh is ASSUMED by power tier; power_kw = fastest charger in the hub; stations = chargers merged into the hub
+id,name,type,lat,lon,charger,price_per_kwh,power_kw,available,stations,operators
+0,Kasaragod,CITY,12.50933,75.01792,1,18,30,1,5,Tata Power/Chargezone (India)
+1,Bekkal,STATION,12.42338,75.01475,1,12,7.4,1,1,Tata Power
+2,Hosdurg,STATION,12.40581,75.09630,1,18,30,1,1,GO EC (IN)
+3,Kanhangad,STATION,12.33485,75.10954,1,22,50,1,5,ChargeMod (IN)/Zeon Charging
+4,Cheruvathur,STATION,12.22720,75.15912,1,22,60,1,2,ChargeMod (IN)
+5,Mathil,STATION,12.18692,75.24877,1,18,30,1,6,ChargeMod (IN)/Tata Power
+6,Payyannur,STATION,12.09909,75.24095,1,18,30,1,3,GO EC (IN)/Tata Power
+7,Bakkalam,STATION,11.99745,75.37091,1,18,30,1,2,ChargeMod (IN)
+8,Iritty,STATION,11.98812,75.66710,1,18,30,1,2,Tata Power/ChargeMod (IN)
+9,Kannur (NE),STATION,11.92729,75.50045,1,18,30,1,2,GO EC (IN)/Zeon Charging
+10,Kannur,CITY,11.86520,75.38878,1,22,60,1,10,Tata Power/ChargeMod (IN)
+11,Mananthavady,STATION,11.79698,76.00660,1,22,60,1,1,ChargeMod (IN)
+12,Kannur (SE),STATION,11.79078,75.50921,1,22,60,1,10,Zeon Charging/EESL (IN)
+13,"Panoor, Kannur",STATION,11.75487,75.57807,1,18,30,1,1,ChargeMod (IN)
+14,Tharuvana,STATION,11.73641,75.98674,1,22,60,1,1,ChargeMod (IN)
+15,Muthanga,STATION,11.67080,76.36102,1,18,30,1,1,GO EC (IN)
+16,Padinjarathara,STATION,11.66783,75.95835,1,18,30,1,6,ChargeMod (IN)/Tata Power
+17,Sulthan Bathery,STATION,11.66130,76.24961,1,22,60,1,6,ChargeMod (IN)/Tata Power
+18,Meenangadi,STATION,11.65405,76.15359,1,22,60,1,1,ChargeMod (IN)
+19,Kuttiyady,STATION,11.64890,75.75594,1,18,30,1,1,ChargeMod (IN)
+20,Kalpetta (NW),STATION,11.63046,76.01815,1,18,22,1,1,Zeon Charging
+21,Kalpetta,CITY,11.60058,76.07737,1,18,30,1,7,ChargeMod (IN)/Tata Power
+22,Vadakara,STATION,11.58636,75.59322,1,22,60,1,3,EESL (IN)
+23,Vythiri,STATION,11.54027,76.03575,1,18,30,1,5,ChargeMod (IN)/GO EC (IN)
+24,Payyoli,STATION,11.52044,75.61799,1,22,60,1,4,ChargeMod (IN)
+25,Thamarassery,STATION,11.44102,75.95388,1,18,30,1,6,ChargeMod (IN)/Tata Power
+26,Koyilandi,STATION,11.42768,75.70300,1,18,30,1,4,ChargeMod (IN)
+27,Vazhikadavu,STATION,11.38663,76.35472,1,18,30,1,1,ChargeMod (IN)
+28,Kozhikode (NW),STATION,11.38283,75.73594,1,22,60,1,1,ChargeMod (IN)
+29,Koduvally,STATION,11.33269,75.89469,1,22,120,1,4,ChargeMod (IN)
+30,Mukkom,STATION,11.31973,75.99552,1,22,60,1,1,GO EC (IN)
+31,Pavangad,STATION,11.31241,75.75859,1,18,30,1,4,ChargeMod (IN)
+32,Karulai,STATION,11.28805,76.29798,1,18,30,1,1,GO EC (IN)
+33,Kozhikode,CITY,11.25906,75.79434,1,22,120,1,29,Tata Power/GO EC (IN)
+34,Edavannappara,STATION,11.24532,75.97749,1,18,30,1,1,ChargeMod (IN)
+35,Nilambur,STATION,11.24366,76.22069,1,18,30,1,4,GO EC (IN)/Tata Power
+36,Kozhikode (SE),STATION,11.20489,75.85570,1,18,30,1,3,Tata Power/ChargeMod (IN)
+37,Edavanna,STATION,11.20415,76.13673,1,22,60,1,1,Tata Power
+38,Pulikkal,STATION,11.15684,75.91835,1,22,60,1,4,ChargeMod (IN)/Tata Power
+39,Manjeri,STATION,11.12368,76.11797,1,22,60,1,6,Tata Power/GO EC (IN)
+40,Pandikkad,STATION,11.11080,76.21918,1,22,60,1,3,ChargeMod (IN)/GO EC (IN)
+41,Malappuram,CITY,11.07842,75.90276,1,18,30,1,1,GO EC (IN)
+42,Munduparamba,STATION,11.05329,76.08734,1,22,60,1,7,ChargeMod (IN)/Tata Power
+43,Melattur,STATION,11.04897,76.27297,1,18,30,1,3,ChargeMod (IN)
+44,Kottakkal,STATION,11.00063,75.97968,1,22,60,1,4,Zeon Charging/ChargeMod (IN)
+45,Mannarkkad,STATION,10.98926,76.53701,1,22,60,1,3,EESL (IN)
+46,Mannarkkad (W),STATION,10.98886,76.43669,1,22,60,1,1,ChargeMod (IN)
+47,Perinthalmanna,STATION,10.97222,76.23485,1,22,60,1,8,EESL (IN)/Tata Power
+48,Mannarkkad (S),STATION,10.93356,76.52722,1,22,60,1,2,GO EC (IN)
+49,Tirur,STATION,10.91501,75.91860,1,22,60,1,5,ChargeMod (IN)/Tata Power
+50,Sreekrishnapuram,STATION,10.89808,76.39530,1,18,30,1,1,ChargeMod (IN)
+51,Valanchery,STATION,10.89808,76.05035,1,22,60,1,5,GO EC (IN)/ChargeMod (IN)
+52,Koppam,STATION,10.87827,76.18761,1,18,30,1,1,ChargeMod (IN)
+53,Mundur,STATION,10.83949,76.58000,1,18,30,1,1,ChargeMod (IN)
+54,Elappully,STATION,10.80581,76.82620,1,22,60,1,15,GO EC (IN)/ChargeMod (IN)
+55,Edappal,STATION,10.79798,76.00845,1,18,30,1,2,GO EC (IN)/Zeon Charging
+56,Pattambi,STATION,10.78603,76.16515,1,22,60,1,8,GO EC (IN)/ChargeMod (IN)
+57,Palakkad,CITY,10.78017,76.65566,1,22,60,1,9,Tata Power/Chargezone (India)
+58,Lakkidi,STATION,10.77814,76.43743,1,22,60,1,1,ChargeMod (IN)
+59,Kulappully,STATION,10.77655,76.28136,1,22,60,1,8,ChargeMod (IN)/EESL (IN)
+60,Ponnani,STATION,10.76331,75.95505,1,18,30,1,7,ChargeMod (IN)
+61,Changaramkulam,STATION,10.72888,76.05452,1,22,60,1,3,ChargeMod (IN)/Zeon Charging
+62,Thiruvilwamala,STATION,10.71002,76.42879,1,18,25,1,2,GO EC (IN)
+63,Palakkad (SE),STATION,10.69295,76.72626,1,22,60,1,3,EESL (IN)
+64,Thirissur,STATION,10.69272,76.26858,1,22,60,1,3,GO EC (IN)
+65,Erumappetti,STATION,10.68134,76.16967,1,18,30,1,2,ChargeMod (IN)
+66,Alathur,STATION,10.64224,76.53767,1,22,60,1,4,GO EC (IN)
+67,Wadakkanchery,STATION,10.62054,76.22377,1,22,60,1,7,ChargeMod (IN)/EESL (IN)
+68,Kechery,STATION,10.61663,76.12578,1,22,60,1,2,ChargeMod (IN)
+69,Guruvayur,STATION,10.59670,76.04171,1,18,25,1,4,Tata Power/GO EC (IN)
+70,Vadakkenchery,STATION,10.59516,76.47619,1,18,30,1,7,ChargeMod (IN)/GO EC (IN)
+71,Nenmara,STATION,10.59340,76.58353,1,18,30,1,1,ChargeMod (IN)
+72,Peramangalam,STATION,10.56497,76.16598,1,22,80,1,2,GO EC (IN)
+73,Pattikkad,STATION,10.55587,76.32282,1,18,24,1,1,Zeon Charging
+74,Thrissur,CITY,10.51958,76.21991,1,22,120,1,28,ChargeMod (IN)/Zeon Charging
+75,Vadanappalli,STATION,10.49317,76.06711,1,22,60,1,3,GO EC (IN)/ChargeMod (IN)
+76,Thrissur (SE),STATION,10.44557,76.26327,1,22,60,1,7,GO EC (IN)/Chargezone (India)
+77,Karuvannur,STATION,10.40895,76.21401,1,22,60,1,1,ChargeMod (IN)
+78,Valappad,STATION,10.40320,76.12446,1,22,60,1,9,ChargeMod (IN)/GO EC (IN)
+79,Chalakudy,STATION,10.33595,76.32178,1,22,60,1,5,ChargeMod (IN)
+80,Irinjalakkuda,STATION,10.33142,76.21526,1,18,30,1,4,ChargeMod (IN)
+81,Athirappilly,STATION,10.28604,76.55852,1,18,30,1,2,ChargeMod (IN)
+82,Koratty,STATION,10.28141,76.34345,1,22,60,1,2,GO EC (IN)/ChargeMod (IN)
+83,Mala,STATION,10.24067,76.27253,1,18,25,1,1,GO EC (IN)
+84,Kodungallur,STATION,10.22160,76.19779,1,22,60,1,4,GO EC (IN)/Tata Power
+85,Nedumbassery,STATION,10.17283,76.37968,1,22,80,1,23,ChargeMod (IN)/Tata Power
+86,Kunnukara,STATION,10.15491,76.28601,1,18,30,1,2,ChargeMod (IN)
+87,North Paravoor,STATION,10.14346,76.22481,1,18,30,1,6,ChargeMod (IN)/Zeon Charging
+88,Perumbavoor,STATION,10.10550,76.47586,1,22,80,1,6,GO EC (IN)/ChargeMod (IN)
+89,Aluva,STATION,10.08803,76.38904,1,18,30,1,3,ChargeMod (IN)
+90,Munnar,CITY,10.08738,77.06170,1,18,30,1,3,ChargeMod (IN)
+91,Varappuzha,STATION,10.08729,76.26789,1,18,25,1,1,GO EC (IN)
+92,Kothamangalam,STATION,10.05708,76.61283,1,22,60,1,5,ChargeMod (IN)
+93,Neriyamangalam,STATION,10.05658,76.77665,1,12,3.3,1,1,GO EC (IN)
+94,Kalamassery,STATION,10.05599,76.32884,1,22,60,1,13,ChargeMod (IN)/Tata Power
+95,Pallikkara,STATION,10.02839,76.39819,1,22,60,1,5,Statiq (IN)/ChargeMod (IN)
+96,Munnar (S),STATION,10.02568,77.05377,1,18,22,1,1,Zeon Charging
+97,Ernakulam,CITY,9.98395,76.31290,1,22,60,1,56,ChargeMod (IN)/GO EC (IN)
+98,Moovattupuzha,STATION,9.97464,76.58843,1,22,60,1,8,ChargeMod (IN)/Chargezone (India)
+99,Cochin,STATION,9.96830,76.24571,1,18,24,1,1,Zeon Charging
+100,Thrippunithara,STATION,9.93288,76.38863,1,22,60,1,4,ChargeMod (IN)
+101,Ernakulam (S),STATION,9.92299,76.31769,1,22,90,1,2,Chargezone (India)
+102,Thodupuzha,CITY,9.89145,76.70273,1,18,30,1,10,ChargeMod (IN)/Chargezone (India)
+103,Arookutty,STATION,9.85711,76.35368,1,18,30,1,3,Zeon Charging/GO EC (IN)
+104,Koothattukulam,STATION,9.85656,76.59657,1,18,30,1,3,ChargeMod (IN)
+105,Idukki,STATION,9.84906,76.97740,1,22,60,1,3,EESL (IN)
+106,Alliyar,STATION,9.80694,77.04794,1,18,30,1,1,GO EC (IN)
+107,Thalayolaparambu,STATION,9.79885,76.45989,1,18,30,1,2,ChargeMod (IN)
+108,Moolamattom,STATION,9.78917,76.85386,1,18,30,1,4,ChargeMod (IN)
+109,Kuravilangad,STATION,9.76192,76.56472,1,18,25,1,2,GO EC (IN)
+110,Kattappana,STATION,9.74762,77.10542,1,18,25,1,1,GO EC (IN)
+111,Anthikkad,STATION,9.73296,76.69726,1,18,30,1,2,GO EC (IN)/ChargeMod (IN)
+112,Manjoor,STATION,9.72758,76.52039,1,18,30,1,1,GO EC (IN)
+113,Erattupetta,STATION,9.69068,76.77459,1,18,30,1,1,ChargeMod (IN)
+114,Pala,STATION,9.68883,76.63013,1,22,60,1,3,ChargeMod (IN)/GO EC (IN)
+115,Vagamon,STATION,9.68430,76.89548,1,18,30,1,3,ChargeMod (IN)
+116,Ettumanoor,STATION,9.66965,76.54508,1,22,60,1,7,GO EC (IN)/Chargezone (India)
+117,Cherthala,STATION,9.64338,76.32816,1,22,60,1,6,EESL (IN)/GO EC (IN)
+118,Kumali,STATION,9.62776,77.16210,1,18,30,1,6,GO EC (IN)/Zeon Charging
+119,Kumarakom,STATION,9.59458,76.42607,1,18,30,1,2,ChargeMod (IN)
+120,Kottayam (E),STATION,9.58626,76.58842,1,18,30,1,2,ChargeMod (IN)
+121,Kottayam,CITY,9.58285,76.52076,1,22,80,1,12,ChargeMod (IN)/GO EC (IN)
+122,Kuttikkanam,STATION,9.58020,76.97061,1,22,60,1,2,GO EC (IN)
+123,Ponkunnam,STATION,9.56661,76.72977,1,18,30,1,3,GO EC (IN)
+124,Mundakkayam,STATION,9.54409,76.87734,1,18,24,1,1,Zeon Charging
+125,Alappuzha,CITY,9.52089,76.32580,1,22,60,1,7,GO EC (IN)/ChargeMod (IN)
+126,Nedumkunnam,STATION,9.50616,76.65233,1,18,30,1,1,ChargeMod (IN)
+127,Changanassery,STATION,9.43911,76.55117,1,22,60,1,7,ChargeMod (IN)/GO EC (IN)
+128,Punnapra,STATION,9.42562,76.34677,1,18,30,1,3,ChargeMod (IN)
+129,Pamba,STATION,9.41238,77.06997,1,18,30,1,4,ChargeMod (IN)
+130,Edathwa,STATION,9.36753,76.49952,1,18,30,1,3,ChargeMod (IN)
+131,Pathanamthitta (NE),STATION,9.31320,76.80185,1,22,60,1,3,ChargeMod (IN)/Zeon Charging
+132,Chengannur,STATION,9.31166,76.62272,1,22,90,1,8,GO EC (IN)/ChargeMod (IN)
+133,Karuvatta,STATION,9.30931,76.42281,1,22,60,1,9,ChargeMod (IN)/GO EC (IN)
+134,Mavelikkara,STATION,9.25581,76.51866,1,22,60,1,3,ChargeMod (IN)/Zeon Charging
+135,Pathanamthitta,CITY,9.24619,76.75696,1,22,60,1,8,GO EC (IN)/EESL (IN)
+136,Konni,STATION,9.22913,76.84839,1,18,30,1,1,ChargeMod (IN)
+137,Mavelikkara (SE),STATION,9.19888,76.60018,1,18,30,1,2,ChargeMod (IN)
+138,Kayamkulam,STATION,9.15798,76.49606,1,22,60,1,12,GO EC (IN)/EESL (IN)
+139,Adoor,STATION,9.15653,76.72867,1,22,60,1,10,GO EC (IN)/ChargeMod (IN)
+140,Pathanapuram,STATION,9.07099,76.85631,1,18,25,1,2,GO EC (IN)
+141,Puthoor,STATION,9.05137,76.70325,1,18,30,1,2,GO EC (IN)
+142,Karunagappalli,STATION,9.05025,76.53585,1,18,30,1,3,Chargezone (India)
+143,Inchakkad,STATION,9.04741,76.77250,1,22,60,1,6,GO EC (IN)/ChargeMod (IN)
+144,Kottarakkara (NW),STATION,8.98214,76.80933,1,18,30,1,2,GO EC (IN)
+145,Thenmala,STATION,8.96682,77.05563,1,18,30,1,1,ChargeMod (IN)
+146,Kundara,STATION,8.95421,76.66297,1,18,30,1,6,ChargeMod (IN)/GO EC (IN)
+147,Kottarakkara,STATION,8.93392,76.85197,1,18,30,1,3,ChargeMod (IN)
+148,Kollam (NW),STATION,8.92697,76.55280,1,22,60,1,1,ChargeMod (IN)
+149,Kollam (E),STATION,8.90595,76.74819,1,18,30,1,5,Zeon Charging/ChargeMod (IN)
+150,Kollam,CITY,8.88660,76.63669,1,22,60,1,14,ChargeMod (IN)/Chargezone (India)
+151,Chadayamangalam,STATION,8.86343,76.87121,1,22,60,1,2,GO EC (IN)
+152,Parippalli,STATION,8.80809,76.76034,1,22,60,1,3,ChargeMod (IN)/Zeon Charging
+153,Karette,STATION,8.74971,76.89339,1,22,80,1,3,GO EC (IN)/ChargeMod (IN)
+154,Varkala,STATION,8.74332,76.70686,1,18,30,1,4,GO EC (IN)/Chargezone (India)
+155,Attingal,STATION,8.68843,76.83520,1,22,60,1,11,ChargeMod (IN)/GO EC (IN)
+156,Thiruvananthapuram (N),STATION,8.65175,76.92798,1,22,60,1,2,ChargeMod (IN)
+157,Kazhakuttom,STATION,8.56856,76.87244,1,18,30,1,3,ChargeMod (IN)
+158,Thiruvananthapuram (E),STATION,8.53880,76.96761,1,22,60,1,3,Chargezone (India)/Statiq (IN)
+159,Thiruvananthapuram,CITY,8.51757,76.91135,1,22,60,1,38,ChargeMod (IN)/GO EC (IN)
+160,Thiruvananthapuram (SE) 2,STATION,8.47348,76.95957,1,22,60,1,4,ChargeMod (IN)/Statiq (IN)
+161,Thiruvananthapuram (SE),STATION,8.35228,77.07574,1,22,60,1,7,GO EC (IN)/Zeon Charging
+162,Thiruvananthapuram (SE) 3,STATION,8.33076,77.14238,1,18,30,1,2,ChargeMod (IN)

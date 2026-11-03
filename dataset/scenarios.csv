@@ -1,0 +1,7 @@
+# test scenarios (roadmap section 7). block_first_stop=1 disables the station the planner would use first
+title,from,to,battery_pct,block_first_stop,expectation
+High battery,Palakkad,Thrissur,90,0,Direct route possible
+Low battery,Kalpetta,Kottayam,60,0,Charging stop required
+Very low battery,Thodupuzha,Kollam,25,0,Find reachable charging station
+Charging station unavailable,Kalpetta,Kottayam,60,1,Find alternative
+No feasible route,Kasaragod,Thiruvananthapuram,6,0,Display no feasible route
